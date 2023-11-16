@@ -46,9 +46,9 @@
   font-size: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 650px) {
   .navbar {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
   }
 
   .logo {
@@ -64,4 +64,199 @@
     padding: 0.5rem;
     font-size: 1rem;
   }
+}
+
+/* Profile */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgimg {
+  width: 100%;
+  height: 18vw;
+}
+
+.herobottom {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.heromain {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.profilediv {
+  width: 25%;
+}
+
+.profile {
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  left: 5%;
+}
+
+.herobtmtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 13vw;
+}
+
+.profilehead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+ion-icon {
+  color: white;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.herobtmdivs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.profileheaddesc {
+  font-weight: normal;
+}
+
+.followerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1rem 0rem;
+}
+
+.followerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.followers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 12px;
+}
+
+.followertext {
+  padding: 5px 15px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  width: 100%;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.herobtmdivs {
+  padding: 0rem 4rem;
+}
+
+.herodesc {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  color: rgb(0, 157, 255);
+  margin: 0.5rem 0;
+}
+
+.icondivs {
+  display: flex;
+  gap: 2rem;
+}
+
+.icondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 650px) {
+  .bgimg {
+    width: 100%;
+    height: 40vw;
+  }
+
+  .profile {
+    width: 25vw;
+    height: 25vw;
+    border: 1px solid black;
+    position: absolute;
+    top: -40%;
+    left: 0%;
+  }
+
+  .profileheadname {
+    font-size: large;
+  }
+
+  .profilehead {
+    gap: 0.5rem;
+  }
+
+  .followertext {
+    font-size: 1rem;
+  }
+
+  .herodesc {
+    font-size: smaller;
+  }
+
+  .herobtmtext {
+    margin-left: 2.5rem;
+  }
+
+  .herobtmdivs {
+    padding: 1rem 0rem;
+  }
+
+  .icondivs {
+    gap: 1rem;
+  }
+
+
 }
