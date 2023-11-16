@@ -68,7 +68,7 @@ const Profile = () => {
               <div className="icondiv">
                 <ion-icon
                   name="thumbs-up-outline"
-                  style={{ backgroundColor: "yellow" }}
+                  style={{ backgroundColor: "orange" }}
                 ></ion-icon>
                 {data.likes}
               </div>

@@ -257,6 +257,70 @@ ion-icon {
   .icondivs {
     gap: 1rem;
   }
+}
 
+/* Posts */
 
+.postcount {
+  margin-top: 2rem;
+  border-bottom: 1px solid gray;
+  height: 3.4rem;
+}
+
+.postsnumber {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  background-color: white;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  color: darkcyan;
+  border-top-right-radius: 5px;
+}
+
+.postdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.posts {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.347);
+}
+
+.posthead,
+.postfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postfooter {
+  font-size: 0.8rem;
+}
+
+.postdate {
+  color: gray;
+}
+
+@media only screen and (max-width: 1200px) {
+  .postdiv {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .postdate {
+    font-size: x-small;
+  }
 }
