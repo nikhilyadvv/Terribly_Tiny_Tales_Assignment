@@ -17,7 +17,7 @@ const Posts = () => {
             {
             "id": 2,
             "title": "Indian v/s Australia",
-            "description": "Think about it - this cricket series was akin to therapy. Laying our childhood trauma up top, working with it slowly and surely over two m...",
+            "description": "Think about it - this cricket series was akin to therapy. \n\nLaying our childhood trauma up top, working with it slowly and surely over two m...",
             "type": "thought",
             "date": "January 21",
             "views": 156,
@@ -25,7 +25,7 @@ const Posts = () => {
             {
             "id": 3,
             "title": "Write To Build",
-            "description": "Writing is the first step to create:- stories - products - companies ",
+            "description": "Writing is the first step to create:\n\n- stories \n- products \n- companies ",
             "type": "thought",
             "date": "November 18",
             "views": 228,
@@ -49,8 +49,9 @@ const Posts = () => {
                 </div>
                 <p className="posttext">{post.description}</p>
                 <div className="postfooter">
-                    <p>
-                    <span style={{ color: "aqua" }}>{post.type}</span> by {data.author}
+                    <p className="postfootertype">
+                    <span style={{ color: "#03a9f4" }}>{post.type}</span>
+                    <span style={{ color: "rgb(60,60,60)" }}><b> by {data.author}</b></span>
                     </p>
                     <p className="postdate">{post.date} - {Math.floor(0.1*post.description.split(" ").filter((element)=>{return element.length!==0;}).length)} mins Read - {post.views} Views</p>
                 </div>
