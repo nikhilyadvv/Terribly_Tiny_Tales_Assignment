@@ -2,6 +2,8 @@
 
 https://terriblytt.netlify.app/
 
+![Screenshot](https://github.com/nikhilyadvv/Terribly_Tiny_Tales_Assignment/assets/74718187/025506be-eb5d-47cf-9fdd-c6e003ee2498)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
